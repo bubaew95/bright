@@ -1,0 +1,25 @@
+User-agent: Yandex
+Disallow: /backend/
+Disallow: /common/
+Disallow: /console/
+Disallow: /environments/
+Disallow: /vagrant/
+Disallow: /vendor/ 
+Disallow: /manager/
+Disallow: */*/backend 
+Disallow: /*?*
+
+
+User-agent: *
+Disallow: /backend/
+Disallow: /common/
+Disallow: /console/ 
+Disallow: /environments/ 
+Disallow: /vagrant/ 
+Disallow: /vendor/  
+Disallow: /manager/
+Disallow: */backend
+Disallow: /*?*
+
+HOST: bright-school.net
+Sitemap: https://bright-school.net/sitemap.xml
